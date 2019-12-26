@@ -1,3 +1,62 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
 
+a {
+  color: #f6f2f1;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col {
+  padding-right: 0px;
+}
+
+.header {
+  height: 90px;
+  background-color: #312f30;
+  opacity: 0.8;
+}
+
+.header__nav {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f6f2f1;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding-top: 40px;
+  padding-bottom: 29px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__nav a {
+  display: block;
+  text-align: center;
+  height: 100%;
+}
+
+.header__nav:first-child {
+  margin-left: 360px;
+  padding-right: 24px;
+  padding-left: 23px;
+  background-color: #ff3f40;
+}
+
+.header__nav:nth-child(2) {
+  margin-left: 25px;
+}
+
+.header__nav:nth-child(3) {
+  margin-left: 32px;
+}
+
+.header__nav:nth-child(4) {
+  margin-left: 40px;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */
